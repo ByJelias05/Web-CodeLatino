@@ -1,4 +1,7 @@
 
+.Contenedor-Cabeza{
+    width: 100%;
+}
 
 .Logo{
     display: flex;
@@ -31,4 +34,27 @@
 
 .Descripcion-App strong{
     color: #41BFCD;
+}
+
+.Barra-Progreso{
+    font-family: 'Poppins', sans-serif;
+   margin-top: 2rem; 
+   color: #31363B;
+   font-style: italic;
+}
+.Barra-Progreso h5{
+    margin-bottom: 5px;
+}
+.Barra-Progreso .Barra-Contenedor{
+    width: 95%;
+    height: 0.7rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.Barra-Progreso .Barra-Contenedor .Barra{
+    height: 100%;
+    width: 25%;
+    border-radius: 10px;
+    background: #41BFCD;
+
 }
