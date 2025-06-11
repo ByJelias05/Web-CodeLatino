@@ -1,0 +1,21 @@
+
+.main{
+    wi8dth: 100%;
+    min-height: 100vh;
+    background: #060B10;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.content .derecha{
+    padding: 25px;
+}
+
+.content .izquierda{
+    padding: 25px;
+
+}
