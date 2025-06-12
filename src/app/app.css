@@ -8,14 +8,20 @@
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: relative;
     
 }
 
 .content .derecha{
+    width: 50%;
+    height: 100vh;
     padding: 25px;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .content .izquierda{
     padding: 25px;
-
+    
 }
