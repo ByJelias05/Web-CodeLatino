@@ -1,0 +1,52 @@
+.Contenedor-Nivel-Experiencia{
+    margin-top: 4rem;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Title{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.Title-No-Active{
+    color: #31363B;
+}
+
+.Title  h1{
+    text-transform: uppercase;
+    -color: #fff;
+    font-weight: 700;
+}
+
+.Title p{
+    color: #31363B;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Contenedor-items-Roles{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.item-rol{
+    border: 2px solid #11161C;
+    width: 80%;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #31363B;
+    border-radius: 5px;
+}
+
+.Requerido{
+    margin-top: 20px;
+    color: #31363B;
+    font-style: italic;
+    font-weight: normal;
+}
