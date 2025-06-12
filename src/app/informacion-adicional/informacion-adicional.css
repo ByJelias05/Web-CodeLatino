@@ -1,0 +1,75 @@
+.Contenedor-Informacion-Adicional{
+     margin-top: 4rem;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Title{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.Title-No-Active{
+    color: #31363B;
+}
+
+.Title  h1{
+    text-transform: uppercase;
+    -color: #fff;
+    font-weight: 700;
+}
+
+.Title p{
+    color: #31363B;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Avatar-Region-Link{
+    width: 100%;
+    color: #31363B;
+    display: flex;
+   
+    
+}
+
+.avatar{
+    text-align: center;
+    
+}
+
+.Avatar-Image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    opacity: 0.1;
+}
+
+.Region-Link{
+    width:40%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.Region-Link input{
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 10px;
+    background: transparent;
+    border: 2px solid #11161C;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.Region-Link input::placeholder{
+    color: #31363B;
+    font-weight: bold;
+}

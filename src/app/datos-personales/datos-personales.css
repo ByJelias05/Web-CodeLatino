@@ -49,7 +49,7 @@
     color: #fff;
     font-size: 1rem;
     padding-left: 10px;
-    background: #060B10;
+    background: transparent;
     border: 2px solid #fff;
     border-radius: 5px;
     outline: none;
@@ -59,7 +59,7 @@
     font-weight: bold;
 }
 
-.Requirido{
+.Requerido{
     margin-top: 20px;
     color: #31363B;
     font-style: italic;
