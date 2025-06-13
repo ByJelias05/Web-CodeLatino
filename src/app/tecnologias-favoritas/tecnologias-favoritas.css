@@ -1,17 +1,17 @@
 .Contenedor-Tecnologias-Favoritas{
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    height: 300px;
 }
 
 .Title{
-    font-size: 1.2rem;
+    font-size: .8rem;
     color: #fff;
+    margin-bottom: 10px;
 }
 
-.Title-No-Active{
-    color: #31363B;
-}
+
 
 .Title  h1{
     text-transform: uppercase;
@@ -20,7 +20,7 @@
 }
 
 .Title p{
-    color: #31363B;
+    color: #5D6064;
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -34,13 +34,13 @@
 }
 
 .item-herramienta{
-    border: 2px solid #11161C;
+    border: 2px solid #fff;
     width: 80%;
     font-size: 14px;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
-    color: #31363B;
+    color: #5E6A7E;
     border-radius: 5px;
 }
 
@@ -55,15 +55,15 @@
 }
 
 .item-herramienta input::placeholder{
-    color: #31363B;
+    color: #5E6A7E;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
 
+
 .Requerido{
     margin-top: 20px;
-    color: #31363B;
-    font-style: italic;
+    color: #C05B60;
     font-weight: normal;
 }

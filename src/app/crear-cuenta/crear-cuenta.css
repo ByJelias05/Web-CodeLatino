@@ -1,0 +1,31 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: #0F172A;
+    padding-left: 15%;
+    padding-block: 20px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.boton-siguiente{
+    display: flex;
+    justify-content: right;
+}
+
+.boton-siguiente button{
+    width: 30%;
+    height: 40px;
+    background: #2563EB;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 40px;
+}

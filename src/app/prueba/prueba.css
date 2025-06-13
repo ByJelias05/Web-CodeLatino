@@ -2,28 +2,27 @@
 
 .main{
     width: 100%;
+    height: 100vh;
+    background: #0F172A;
     font-family: poppins, sans-serif;
-
+    padding-inline: 250px;
+    padding-block: 20px;
 }
 
 .Title{
-    width: 100%;
+    
     font-size: 1.3rem;
     color: #fff;
-    -background: yellow;
 }
 .Title span{
     color: #34D399;
-    background: #fff;
-    padding-inline: 10px;
-    border-radius: 10px;
 }
 
 .Title p{
     margin-top: 30px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 45px;
 }
 
@@ -31,6 +30,10 @@
     color: #34D399;
     
 }
+
+
+
+
 
 .Barra-Progreso{
     font-family: 'Poppins', sans-serif;
@@ -42,14 +45,14 @@
     margin-bottom: 5px;
 }
 .Barra-Progreso .Barra-Contenedor{
-    width: 95%;
+    width: 50%;
     height: 0.7rem;
     background-color: #1D283A;
     border-radius: 10px;
 }
 .Barra-Progreso .Barra-Contenedor .Barra{
     height: 100%;
-    width: 18%;
+    width: 25%;
     border-radius: 10px;
     background: #34D399;
 

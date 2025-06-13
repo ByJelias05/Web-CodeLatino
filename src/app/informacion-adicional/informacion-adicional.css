@@ -1,17 +1,15 @@
 .Contenedor-Informacion-Adicional{
-     margin-top: 4rem;
+    margin-top: 2rem;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    height: 300px;
 }
 
 .Title{
-    font-size: 1.2rem;
+    font-size: .8rem;
     color: #fff;
 }
 
-.Title-No-Active{
-    color: #31363B;
-}
 
 .Title  h1{
     text-transform: uppercase;
@@ -20,7 +18,7 @@
 }
 
 .Title p{
-    color: #31363B;
+    color: #5D6064;
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -28,7 +26,7 @@
 
 .Avatar-Region-Link{
     width: 100%;
-    color: #31363B;
+    color: #fff;
     display: flex;
    
     
@@ -44,7 +42,7 @@
     height: 100px;
     border-radius: 50%;
     margin-top: 10px;
-    opacity: 0.1;
+   
 }
 
 .Region-Link{
@@ -63,7 +61,7 @@
     font-size: 1rem;
     padding-left: 10px;
     background: transparent;
-    border: 2px solid #11161C;
+    border: 2px solid #fff;
     border-radius: 5px;
     outline: none;
 
