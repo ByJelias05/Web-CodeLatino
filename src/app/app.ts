@@ -6,7 +6,7 @@ import { Cabeza } from "./cabeza/cabeza";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CrearCuenta, Cabeza],
+  imports: [RouterOutlet, ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

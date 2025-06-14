@@ -1,0 +1,129 @@
+.Main-Chat{
+    height: 100vh;
+    width: 100%;
+    background: #0A1020;
+    padding-inline: 10%;
+    padding-block: 25px;
+    display: grid;
+    grid-template-rows: 10% 90%;
+
+    font-family: poppins, sans-serif;
+}
+
+.Contain-chat{
+    width: 100%;
+    height: 100%;
+    background: #131A2A;
+    padding-inline: 10%;
+    padding-block: 25px;
+    display: grid;
+    grid-template-rows: 90% 10%;
+    border-radius: 25px;
+}
+
+.Input-BtnEnviar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    
+}
+
+.Messages{
+    position: relative;
+}
+
+.Input-BtnEnviar input{
+    border: 2px solid #34D39A;
+    background: #1A2332;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.Input-BtnEnviar button{
+    background: #34D39A;
+    border: 1px solid #34D39A;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Tu-Mensaje{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 95%;
+    padding-bottom: 25px;
+}
+
+.Tu-Mensaje .mensje p{
+    
+    background: #2C3A4E;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0px;
+    font-size: .8rem;
+    order: 0;
+}
+
+.Tu-Mensaje .Imagen-Perfil{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100vmax;
+}
+
+.Tu-Mensaje .Usuario-tiempo{
+    margin-bottom: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.Tu-Mensaje .Usuario-tiempo .usuario{
+    color: #34D39A;
+}
+.Tu-Mensaje .Usuario-tiempo .tiempo{
+    color: #2C3A4E;
+}
+
+
+
+
+.Mi-Mensaje{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    padding-bottom: 25px;
+
+
+}
+
+.Mi-Mensaje .mensje p{
+    
+    background: #34D39A;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    font-size: .8rem;
+    width: 100%;
+}
+
+.Mi-Mensaje .Imagen-Perfil{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100vmax;
+    
+    position: absolute;
+    right: 0;
+}
+
+.Mi-Mensaje .Usuario-tiempo{
+    margin-bottom: 5px;
+    display: flex;
+    gap: 10px;
+    
+    justify-content: right;
+}
+
+.Mi-Mensaje .Usuario-tiempo .usuario{
+    color: #34D39A;
+}
+.Mi-Mensaje .Usuario-tiempo .tiempo{
+    color: #2C3A4E;
+}
