@@ -9,19 +9,19 @@ import { NivelExperiencia } from './nivel-experiencia/nivel-experiencia';
 import { InformacionAdicional } from './informacion-adicional/informacion-adicional';
 
 export const routes: Routes = [
-    {path: '', redirectTo: 'crear/datos-personales', pathMatch: 'full'},
-    {path: 'crear', redirectTo: 'crear/datos-personales', pathMatch: 'full'},
-    {path: 'crear', component: CrearCuenta, children:[
+  { path: '', redirectTo: 'crear/datos-personales', pathMatch: 'full' },
 
-        {path: 'datos-personales', component: DatosPersonales},
-        {path: 'tecnologias', component: TecnologiasFavoritas},
-        {path: 'roles', component: NivelExperiencia},
-        {path: 'informacion-adicional', component: InformacionAdicional},
-    ]},
-    
-    
+  {
+    path: 'crear',
+    component: CrearCuenta,
+    children: [
+      { path: 'datos-personales', component: DatosPersonales },
+      { path: 'tecnologias', component: TecnologiasFavoritas },
+      { path: 'roles', component: NivelExperiencia },
+      { path: 'informacion-adicional', component: InformacionAdicional }
+    ]
+  },
 
-    {path: 'prueba', component: CrearCuenta},
-    {path: 'chat', component: Chat},
-    
+  { path: 'prueba', component: CrearCuenta },
+  { path: 'chat', component: Chat }
 ];
