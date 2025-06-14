@@ -6,6 +6,7 @@
     background: #0F172A;
     padding-left: 15%;
     padding-block: 20px;
+    overflow: hidden;
 }
 
 .content{
@@ -13,6 +14,7 @@
     grid-template-columns: 1fr 1fr;
     position: relative;
     height: 100%;
+    
 }
 
 .boton-siguiente{
@@ -32,7 +34,7 @@
    
 }
 
-.boton-siguiente button{
+.boton-siguiente a{
     width: 30%;
     height: 40px;
     background: #2563EB;
@@ -43,4 +45,10 @@
     border-radius: 5px;
     cursor: pointer;
     margin-right: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
 }
