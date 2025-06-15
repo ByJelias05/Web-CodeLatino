@@ -14,7 +14,6 @@ export class DatosPersonales {
  
   public CambiarCampo(campo:string){
     this.CampoSelecionado = campo
-    console.log(this.Formnulario.value)
   }
 
 
