@@ -15,10 +15,10 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, provident porro culpa laboriosam dolore, rem, a deleniti laborum assumenda magni corrupti eaque sint asperiores quas quidem quam. Labore, eaque iusto.</p>
                 </div>
-            </div>
+            </div> 
 
             
-            <div class="Mi-Mensaje">
+            <div class="Mi-Mensaje" *ngFor="let item of Chat">
                 <div class="Imagen-Perfil">
 
                 </div>
@@ -27,13 +27,14 @@
                         <h5 class="usuario">JeliasDev</h5>
                         <h5 class="tiempo">Hace 25 minutos</h5>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, provident porro culpa laboriosam dolore, rem, a deleniti laborum assumenda magni corrupti eaque sint asperiores quas quidem quam. Labore, eaque iusto.</p>
+                    <p>{{item}}</p>
                 </div>
             </div>
         </div>
         <div class="Input-BtnEnviar">
-            <input type="text">
-            <button></button>
+            <input type="text" [formControl]="Mensaje">
+            <button (click)="EnviarMensaje()">Enviar</button>
         </div>
     </div>
 </div>
+
