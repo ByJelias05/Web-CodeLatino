@@ -8,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class NivelExperiencia {
 
+  public ListaRoles: string[] = [];
+
+  public SeleccionarRol(Rol:string){
+
+    if(!this.ListaRoles.includes(Rol)){
+      this.ListaRoles.push(Rol)
+    }
+    else{
+      let index = this.ListaRoles.findIndex(rol => rol == Rol);
+      this.ListaRoles.splice(index, 1)
+    }
+
+  }
 }
+ 

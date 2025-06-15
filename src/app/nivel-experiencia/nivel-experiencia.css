@@ -9,7 +9,7 @@
     font-size: .8rem;
     color: #fff;
 }
-
+ 
 
 .Title  h1{
     text-transform: uppercase;
@@ -40,7 +40,30 @@
     text-transform: uppercase;
     color: #31363B;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in;
 }
+
+.item-rol:hover{
+    border: 2px solid #34D399;
+    background: #34D399;
+    color: #fff;
+}
+
+.select{
+    border: 2px solid #34D399;
+    background: #34D399;
+    color: #fff;
+    width: 80%;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
 
 .Requerido{
     margin-top: 20px;
