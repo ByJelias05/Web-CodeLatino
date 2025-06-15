@@ -52,7 +52,9 @@
 
 label{
     color: #AAB4C1;
-    
+    display: inline-block;
+    width: 100%;
+    transition: all 300ms ease-in;
 }
 
 input{
@@ -62,10 +64,10 @@ input{
     font-size: 1rem;
     padding-left: 10px;
     background: #1C2738;
-    border: 1px solid #283446;
+    border: 2px solid #283446;
     border-radius: 5px;
     outline: none;
-    
+    transition: all 300ms ease-in;
 
 }
 .Formulario-Datos .Grupo-Datos-Personales input::placeholder{
@@ -78,3 +80,19 @@ input{
     color: #C05B60;
     font-weight: normal;
 }
+
+.activo{
+    margin-top: 20px;
+    font-family: poppins, sans-serif;
+     transition: 300ms ease-in linear;
+}
+
+.activo label{
+    color: #34D399;
+    transform: translateX(5%)
+}
+
+.activo input{
+    border: 2px solid #34D399;
+}
+

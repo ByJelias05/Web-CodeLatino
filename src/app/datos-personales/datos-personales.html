@@ -4,27 +4,26 @@
         <p>Completa los campos</p>
     </div>
 
-    <form class="Formulario-Datos" action="">
+    <form class="Formulario-Datos" [formGroup]="Formnulario" action="">
         <div class="Grupo-Datos-Personales">
-            <div class="label-input">
+            <div class="{{CampoSelecionado == 'Usuario' ? 'activo' : 'label-input'}}">
                 <label for="Usuario">Usuario</label>
-                <input type="text" class="input-datos-personales">
+                <input (click)="CambiarCampo('Usuario')" [formControl]="Formnulario.controls.Usuario" type="text" class="input-datos-personales">
             </div>
-            <div class="label-input">
+            <div class="{{CampoSelecionado == 'Contraseña' ? 'activo' : 'label-input'}}">
                 <label for="">Contraseña</label>
-                <input type="text" placeholder="Contrasaeña" class="input-datos-personales">
+                <input (click)="CambiarCampo('Contraseña')" [formControl]="Formnulario.controls.Contrasena" type="text" class="input-datos-personales">
             </div>
-            
+             
         </div>
         <div class="Grupo-Datos-Personales">
-            <div class="label-input">
+            <div class="{{CampoSelecionado == 'Correo' ? 'activo' : 'label-input'}}">
                 <label for="">Correo</label>
-                <input type="text" class="input-datos-personales">
+                <input (click)="CambiarCampo('Correo')" [formControl]="Formnulario.controls.Correo" type="text" class="input-datos-personales">
             </div> 
-            <div class="label-input">
+            <div class="{{CampoSelecionado == 'RepetirContraseña' ? 'activo' : 'label-input'}}">
                 <label for="">Repetir Contraseña</label>
-                <input type="" class="input-datos-personales">
-
+                <input (click)="CambiarCampo('RepetirContraseña')" [formControl]="Formnulario.controls.RepetirContrasena" type="" class="input-datos-personales">
             </div>
         </div>
 
