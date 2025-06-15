@@ -8,4 +8,17 @@ import { Component } from '@angular/core';
 })
 export class TecnologiasFavoritas {
 
+  public ListaTecnologias: Array<string> = []
+
+  public AgregarTecnologia(tecnologia:string){
+    
+    if(!this.ListaTecnologias.includes(tecnologia)){
+      this.ListaTecnologias.push(tecnologia)
+    }
+    else{
+      let index = this.ListaTecnologias.findIndex(tecno => tecno == tecnologia)
+      this.ListaTecnologias.splice(index, 1)
+    }
+
+  }
 }

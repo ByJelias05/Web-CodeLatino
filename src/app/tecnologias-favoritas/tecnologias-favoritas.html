@@ -4,22 +4,22 @@
         <p>Elije tus tecnologías, herramientas o lenguajes favoritos.</p>
     </div>
     <div class="Contenedor-items-herramientas">
-        <div class="item-herramienta">
+        <div [class]="ListaTecnologias.includes('React') ? 'select' : 'item-herramienta'" (click)="AgregarTecnologia('React')">
             <h4>React</h4>
         </div>
-        <div class="item-herramienta">
+        <div [class]="ListaTecnologias.includes('Figma') ? 'select' : 'item-herramienta'" (click)="AgregarTecnologia('Figma')">
             <h4>Figma</h4>
         </div>
-        <div class="item-herramienta">
+        <div [class]="ListaTecnologias.includes('.Net') ? 'select' : 'item-herramienta'" (click)="AgregarTecnologia('.Net')">
             <h4>.Net</h4>
         </div>
-        <div class="item-herramienta">
+        <div [class]="ListaTecnologias.includes('Firebase') ? 'select' : 'item-herramienta'" (click)="AgregarTecnologia('Firebase')">
             <h4>Firebase</h4>
         </div>
-        <div class="item-herramienta">
+        <div [class]="ListaTecnologias.includes('Postman') ? 'select' : 'item-herramienta'"(click)="AgregarTecnologia('Postman')">
             <h4>Postman</h4>
         </div>
-        <div class="item-herramienta">
+        <div [class]="ListaTecnologias.includes('JavaScript') ? 'select' : 'item-herramienta'"(click)="AgregarTecnologia('JavaScript')">
             <h4>JavaScript</h4>
         </div>
         <div class="item-herramienta">
