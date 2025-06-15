@@ -7,19 +7,22 @@
             <div class="avatar">
                 <h3>Avatar</h3>
                 <div class="Avatar-Image">
-                    <img src="https://avatars.githubusercontent.com/u/102885626?v=4" alt="Avatar" />
+                    <img  src={{image}} alt="Avatar" />
                 </div>
-                <input [hidden]=true type="file" accept="image/*" />
+                <input [hidden]=false (change)="ExtaerImagen($event)" type="file" />
             </div>
             <div class="Region-Link">
                 <div class="Region">
-                    <h3>Region</h3>
-                    <input type="text" placeholder="Republica Dominicana" />
+                    <h3 >Region</h3>
+                    <input [formControl]="Region" type="text" placeholder="Republica Dominicana" />
                 </div>
                 <div class="Link">
                     <h3>Link</h3>
-                    <input type="text" placeholder="https://github.com/ByJelias05"/>
+                    <input [formControl]="Link" type="text" placeholder="https://github.com/ByJelias05"/>
                 </div>
         </div>
     </div>
 </div>
+
+
+ 
